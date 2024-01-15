@@ -200,3 +200,58 @@ nav a {
     margin-top: 100px;
     text-align: center;
 }
+
+.card-1 {
+    width: 574px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+
+.card-2 {
+    width: 574px;
+    height: 284px;
+    border-radius: 16px;
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px;
+}
+
+.card {
+    padding: 32px;
+    width: 574px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.card-content {
+    margin-top: 100px;
+    width: 1170px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    padding: 0 135px;
+}
+
+.card-cont {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    padding-left: 434px;
+}
+
+.card-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.card-des {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
