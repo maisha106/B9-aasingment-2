@@ -1,0 +1,158 @@
+* {
+    font-family: "Mulish", sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    width: 1440px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+
+
+}
+
+header {
+    padding: 0 135px;
+}
+
+.section-title {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.travel {
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    color: var(--Dark-02, #424247);
+    font-size: 18px;
+    font-weight: 400;
+    list-style: none;
+    margin-right: 30px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #424247;
+}
+
+.home {
+    color: #FF5400;
+}
+
+.banner {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    border-radius: 16px;
+    width: 1170px;
+    height: 500px;
+    text-align: center;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+
+}
+
+.banner-title {
+    padding-top: 106px;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.banner-description {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.info {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+}
+
+.go {
+    border-radius: 8px;
+    background: #FFF;
+    width: 174px;
+    height: 52px;
+    border: none;
+}
+
+.when {
+    border-radius: 8px;
+    background: #FFF;
+    width: 174px;
+    height: 52px;
+    border: none;
+}
+
+.type {
+    border-radius: 8px;
+    background: #FFF;
+    width: 174px;
+    height: 52px;
+    border: none;
+}
+
+.search {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    color: #FFF;
+    border: none;
+}
+
+.tour {
+    display: flex;
+    margin-top: 100px;
+    padding: 0 135px;
+    justify-content: space-between;
+}
+
+.tour-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.tour-container {
+    width: 577px;
+    gap: 24px;
+
+}
+
+.read {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    border: none;
+    color: #FFF;
+    margin-top: 32px;
+}
