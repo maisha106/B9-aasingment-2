@@ -534,6 +534,7 @@ footer {
         width: 335px;
         padding: 0 10px;
         flex-direction: column;
+        margin-top: 24px;
     }
 
     .letter {
@@ -542,6 +543,7 @@ footer {
 
     .news {
         width: 335px;
+        padding: 0;
     }
 
     .name {
@@ -572,4 +574,17 @@ footer {
     nav {
         flex-direction: column;
     }
+
+    .footer-content {
+        width: 375px;
+        flex-direction: column;
+        padding: 0;
+        margin-top: 24px;
+    }
+
+    .footer-description {
+        width: 335px;
+        padding: 0;
+    }
+
 }
